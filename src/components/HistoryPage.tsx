@@ -51,8 +51,7 @@ export default function HistoryPage({ user, onSelectPastAnalysis }: HistoryPageP
     try {
       const q = query(
         collection(db, "analyses"),
-        where("userId", "==", user.uid),
-        orderBy("createdAt", "desc")
+        where("userId", "==", user.uid)
       );
       const snapshot = await getDocs(q);
       const list: AnalysisResult[] = [];
@@ -66,6 +65,12 @@ export default function HistoryPage({ user, onSelectPastAnalysis }: HistoryPageP
           interactions: data.interactions || [],
           aiSummary: data.aiSummary || null
         });
+      });
+      // Sort in-memory to bypass Firestore index constraint
+      list.sort((a, b) => {
+        const timeA = a.createdAt ? new Date(a.createdAt).getTime() : 0;
+        const timeB = b.createdAt ? new Date(b.createdAt).getTime() : 0;
+        return timeB - timeA;
       });
       setAnalyses(list);
       globalHistoryCache.set(user.uid, list);
