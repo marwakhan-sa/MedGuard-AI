@@ -29,8 +29,8 @@ Over 1 million people are sent to the ER every year in the US due to adverse dru
 ## Screenshots
 
 ### Landing Page
-![Landing Page](./screenshots/landing-page1.png) 
-![Landing Page](./screenshots/landing-page2.png) 
+![Landing Page](./Screenshots/landing-page1.png) 
+![Landing Page](./Screenshots/landing-page2.png) 
 
 ### Sign In / Sign Up
  ![Auth Screen](./screenshots/auth.png) 
