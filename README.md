@@ -39,14 +39,10 @@ RxNav gives raw pairwise interaction data, but it can't reason across a whole me
 **Prerequisites:** Node.js
 
 1. Install dependencies:
-   npm install
+   `npm install`
 2. Add your environment variables in a `.env` file (see `.env.example`):
-   GEMINI_API_KEY=your_key_here
-   FIREBASE_API_KEY=your_key_here
-   FIREBASE_AUTH_DOMAIN=your_domain_here
-   FIREBASE_PROJECT_ID=your_project_id_here
-4. Run the app:
-   npm run dev
+3. Run the app:
+   `npm run dev`
 
 
 ## Disclaimer
