@@ -39,13 +39,13 @@ RxNav gives raw pairwise interaction data, but it can't reason across a whole me
 **Prerequisites:** Node.js
 
 1. Install dependencies:
-   nmp install
+   npm install
 2. Add your environment variables in a `.env` file (see `.env.example`):
    GEMINI_API_KEY=your_key_here
    FIREBASE_API_KEY=your_key_here
    FIREBASE_AUTH_DOMAIN=your_domain_here
    FIREBASE_PROJECT_ID=your_project_id_here
-3. Run the app:
+4. Run the app:
    npm run dev
 
 
@@ -53,6 +53,5 @@ RxNav gives raw pairwise interaction data, but it can't reason across a whole me
 
 MedGuard is a hackathon prototype and not a substitute for professional medical advice. All results should be confirmed with a licensed pharmacist or physician before making any medication changes. No real patient data is used or stored.
 
-Built for [Build With AI-Hackathon]
 
       
