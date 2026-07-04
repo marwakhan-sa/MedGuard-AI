@@ -1,0 +1,6 @@
+{
+  "name": "MedGuard",
+  "description": "Medication interaction checker for caregivers and patients managing multiple prescriptions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
