@@ -34,8 +34,8 @@ Over 1 million people are sent to the ER every year due to adverse drug interact
  ![Auth Screen](./Screenshots/auth.png) 
 
 ### Medication Regimen Checker (Dashboard)
- ![Dashboard](./Screenshots/dashboard1.png) 
- ![Dashboard](./Screenshots/dashboard2.png) 
+ ![Dashboard](./Screenshots/dashboard-1.png) 
+ ![Dashboard](./Screenshots/dashboard-2.png) 
 
 ### Loading page
 ![Loading](./Screenshots/loading1.png) 
@@ -45,7 +45,7 @@ Over 1 million people are sent to the ER every year due to adverse drug interact
  ![AI Risk Summary](./Screenshots/ai-summary.png) 
 
 ### Pairwise Interaction Details
-![Interaction Details](./Screenshots/interactions.png) 
+![Interaction Details](./Screenshots/comparison.png) 
 ![Interaction Details](./Screenshots/questions.png) 
 
 ### Past Analyses / History
