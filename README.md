@@ -5,14 +5,12 @@
 MedGuard helps caregivers and patients managing multiple prescriptions catch dangerous drug interactions that often go unnoticed when medications come from different doctors who don't share records. Users enter their medication list, and MedGuard cross-references clinical interaction data, then uses Gemini to synthesize a plain-language, prioritized risk analysis — including specific questions to bring to a doctor.
 
 🔗 **Live app:** https://med-guard-ai-delta.vercel.app
-🔗 **AI Studio app:** https://ai.studio/apps/83ac10dd-5c29-4cd4-89dd-27a2c8079cea
-
 
 ---
 
 ## The Problem
 
-Over 1 million people are sent to the ER every year in the US due to adverse drug interactions — many of them predictable and preventable. This risk is especially high for people managing several prescriptions from different doctors who don't coordinate: a cardiologist prescribes for the heart, a primary care doctor prescribes for everything else, and no one checks the full combined list. Family caregivers are often the last line of defense, with no tools to catch what the system misses.
+Over 1 million people are sent to the ER every year due to adverse drug interactions — many of them predictable and preventable. This risk is especially high for people managing several prescriptions from different doctors who don't coordinate: a cardiologist prescribes for the heart, a primary care doctor prescribes for everything else, and no one checks the full combined list. Family caregivers are often the last line of defense, with no tools to catch what the system misses.
 
 ## What MedGuard Does
 
@@ -33,19 +31,25 @@ Over 1 million people are sent to the ER every year in the US due to adverse dru
 ![Landing Page](./Screenshots/landing-page2.png) 
 
 ### Sign In / Sign Up
- ![Auth Screen](./screenshots/auth.png) 
+ ![Auth Screen](./Screenshots/auth.png) 
 
 ### Medication Regimen Checker (Dashboard)
- ![Dashboard](./screenshots/dashboard.png) 
+ ![Dashboard](./Screenshots/dashboard1.png) 
+ ![Dashboard](./Screenshots/dashboard2.png) 
+
+### Loading page
+![Loading](./Screenshots/loading1.png) 
+![Loading](./Screenshots/loading2.png) 
 
 ### Gemini AI Safety Synthesis Panel
- ![AI Risk Summary](./screenshots/ai-summary.png) 
+ ![AI Risk Summary](./Screenshots/ai-summary.png) 
 
 ### Pairwise Interaction Details
-![Interaction Details](./screenshots/interactions.png) 
+![Interaction Details](./Screenshots/interactions.png) 
+![Interaction Details](./Screenshots/questions.png) 
 
 ### Past Analyses / History
-![History](./screenshots/history.png) -->
+![History](./Screenshots/history.png)
 
 ---
 
